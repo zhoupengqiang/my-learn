@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table-layout</title>
+  <style>
+    .container{
+      width: 50px
+    }
+    table {
+      table-layout: auto;
+      width: 120px;
+    }
+    td {
+      border: 1px solid blue;
+    }
+  </style>
+</head>
+<body>
+  <pre>
+1、table-layout: auto, with只能限制 table 的 min-width。
+  1.1当width &lt; 内容所需宽度，使用后者。
+  1.2当width &gt; 内容所需宽度，使用前者，每列按比例放大。
+2、table-layout: fixed, with限制table宽度，所有列平分宽度 。
+  </pre>
+  <div class="container">
+    <table>
+      <tr><td>name</td><td>age</td></tr>
+      <tr><td>assss</td><td>23</td></tr>
+      <tr><td>sd</td><td>33</td></tr>
+    </table>
+  </div>
+</body>
+</html>
