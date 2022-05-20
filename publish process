@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T07:05:14.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="18.0.5" etag="dlXN2Yox4y2xOkLhZh5L" type="github"><diagram id="GSxpnrL7JpmpHaSVfHxI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-20T07:42:56.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="8_Y0auD5Jm6XAPLxtNu0" version="18.0.5" type="github">
+  <diagram id="GSxpnrL7JpmpHaSVfHxI" name="Page-1">
+    <mxGraphModel dx="983" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RcWCU-WmMO8swENqahap-2" value="alpha version&lt;br&gt;x.x.x.alpha.x" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-3" value="formal version&lt;br&gt;x.x.x" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RcWCU-WmMO8swENqahap-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="90" as="sourcePoint" />
+            <mxPoint x="300" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RcWCU-WmMO8swENqahap-2" target="RcWCU-WmMO8swENqahap-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.5" y="220" as="sourcePoint" />
+            <mxPoint x="239.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-10" value="pr" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-11" value="publish by hand&lt;br&gt;for testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="RcWCU-WmMO8swENqahap-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="sourcePoint" />
+            <mxPoint x="239.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-13" value="merged into master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="RcWCU-WmMO8swENqahap-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="239.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-15" value="run test cases and&lt;br&gt;automatic publishing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="RcWCU-WmMO8swENqahap-15" source="RcWCU-WmMO8swENqahap-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="249.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-25" value="&lt;span style=&quot;text-align: left;&quot;&gt;can&#39;t be published by hand&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="320" width="149" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RcWCU-WmMO8swENqahap-26" value="&lt;span style=&quot;text-align: left;&quot;&gt;can&#39;t be merged&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
